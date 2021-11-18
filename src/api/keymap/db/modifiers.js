@@ -85,6 +85,22 @@ const ModifiersTable = {
         primary: "RIGHT " + guiLabel.toUpperCase(),
         verbose: "Right " + guiLabel
       }
+    },
+    {
+      code: 144,
+      labels: {
+        top: "",
+        primary: "LANG1",
+        verbose: "Lang1"
+      }
+    },
+    {
+      code: 145,
+      labels: {
+        top: "",
+        primary: "LANG2",
+        verbose: "Lang2"
+      }
     }
   ]
 };
