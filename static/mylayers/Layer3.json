@@ -179,8 +179,8 @@
       "verbose": "Transparent"
     },
     {
-      "keyCode": 17496,
-      "label": "4",
+      "keyCode": 17492,
+      "label": "0",
       "extraLabel": "MOVE"
     },
     {
@@ -401,9 +401,9 @@
       "verbose": "Transparent"
     },
     {
-      "keyCode": 17492,
-      "label": "0",
-      "extraLabel": "MOVE"
+      "keyCode": 49165,
+      "label": "4",
+      "extraLabel": "OSL"
     },
     {
       "keyCode": 65535,
@@ -424,9 +424,9 @@
       "verbose": "Transparent"
     },
     {
-      "keyCode": 17492,
-      "label": "0",
-      "extraLabel": "MOVE"
+      "keyCode": 49163,
+      "label": "2",
+      "extraLabel": "OSL"
     },
     {
       "keyCode": 17492,
@@ -454,7 +454,7 @@
     13,
     13,
     13,
-    15,
+    4,
     13,
     13,
     13,
@@ -504,11 +504,11 @@
     3,
     13,
     4,
-    4,
+    11,
     13,
     13,
     13,
-    4,
+    15,
     13,
     1,
     1,

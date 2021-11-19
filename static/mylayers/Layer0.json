@@ -112,8 +112,9 @@
       "extraLabel": "L#2/"
     },
     {
-      "keyCode": 12,
-      "label": "I"
+      "keyCode": 52510,
+      "label": "I",
+      "extraLabel": "L#5/"
     },
     {
       "keyCode": 18,
@@ -136,9 +137,9 @@
       "label": "ENTER"
     },
     {
-      "keyCode": 49165,
-      "label": "4",
-      "extraLabel": "OSL"
+      "keyCode": 17495,
+      "label": "3",
+      "extraLabel": "MOVE"
     },
     {
       "keyCode": 4,
@@ -314,9 +315,9 @@
       "extraLabel": "MOVE"
     },
     {
-      "keyCode": 49468,
+      "keyCode": 51773,
       "label": "TAB",
-      "extraLabel": "SHIFT/"
+      "extraLabel": "L#2/"
     },
     {
       "keyCode": 49467,
@@ -324,8 +325,8 @@
       "extraLabel": "SHIFT/"
     },
     {
-      "keyCode": 49163,
-      "label": "2",
+      "keyCode": 49165,
+      "label": "4",
       "extraLabel": "OSL"
     },
     {
@@ -345,9 +346,9 @@
       "verbose": "Lang1"
     },
     {
-      "keyCode": 17495,
-      "label": "3",
-      "extraLabel": "MOVE"
+      "keyCode": 49163,
+      "label": "2",
+      "extraLabel": "OSL"
     },
     {
       "keyCode": 17152,
@@ -374,7 +375,7 @@
     4,
     4,
     4,
-    15,
+    1,
     4,
     4,
     4,
@@ -424,11 +425,11 @@
     4,
     4,
     0,
-    1,
-    4,
-    4,
-    4,
     11,
+    4,
+    4,
+    4,
+    15,
     4,
     4,
     4,
