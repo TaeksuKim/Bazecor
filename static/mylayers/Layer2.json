@@ -224,18 +224,18 @@
       "verbose": "Page Down"
     },
     {
+      "keyCode": 40,
+      "label": "ENTER"
+    },
+    {
+      "keyCode": 72,
+      "label": "PAUSE"
+    },
+    {
       "keyCode": 65535,
       "label": "",
       "extraLabel": "TRANS",
       "verbose": "Transparent"
-    },
-    {
-      "keyCode": 72,
-      "label": "PAUSE"
-    },
-    {
-      "keyCode": 72,
-      "label": "PAUSE"
     },
     {
       "keyCode": 65535,
@@ -328,39 +328,33 @@
       "verbose": "Transparent"
     },
     {
-      "keyCode": 65535,
-      "label": "",
-      "extraLabel": "TRANS",
-      "verbose": "Transparent"
-    },
-    {
-      "keyCode": 65535,
-      "label": "",
-      "extraLabel": "TRANS",
-      "verbose": "Transparent"
-    },
-    {
-      "keyCode": 65535,
-      "label": "",
-      "extraLabel": "TRANS",
-      "verbose": "Transparent"
-    },
-    {
-      "keyCode": 65535,
-      "label": "",
-      "extraLabel": "TRANS",
-      "verbose": "Transparent"
-    },
-    {
-      "keyCode": 65535,
-      "label": "",
-      "extraLabel": "TRANS",
-      "verbose": "Transparent"
-    },
-    {
       "keyCode": 17492,
       "label": "0",
       "extraLabel": "MOVE"
+    },
+    {
+      "keyCode": 65535,
+      "label": "",
+      "extraLabel": "TRANS",
+      "verbose": "Transparent"
+    },
+    {
+      "keyCode": 65535,
+      "label": "",
+      "extraLabel": "TRANS",
+      "verbose": "Transparent"
+    },
+    {
+      "keyCode": 65535,
+      "label": "",
+      "extraLabel": "TRANS",
+      "verbose": "Transparent"
+    },
+    {
+      "keyCode": 65535,
+      "label": "",
+      "extraLabel": "TRANS",
+      "verbose": "Transparent"
     },
     {
       "keyCode": 65535,
@@ -374,11 +368,6 @@
       "extraLabel": "SHIFT/"
     },
     {
-      "keyCode": 49165,
-      "label": "4",
-      "extraLabel": "OSL"
-    },
-    {
       "keyCode": 65535,
       "label": "",
       "extraLabel": "TRANS",
@@ -395,6 +384,16 @@
       "label": "",
       "extraLabel": "TRANS",
       "verbose": "Transparent"
+    },
+    {
+      "keyCode": 49826,
+      "label": "LANG2",
+      "extraLabel": "ALT/"
+    },
+    {
+      "keyCode": 17492,
+      "label": "0",
+      "extraLabel": "MOVE"
     },
     {
       "keyCode": 65535,
@@ -430,9 +429,9 @@
     13,
     1,
     13,
-    15,
-    15,
-    15,
+    11,
+    11,
+    11,
     13,
     13,
     13,
@@ -442,12 +441,12 @@
     13,
     13,
     13,
-    13,
-    13,
-    12,
-    12,
     4,
     13,
+    12,
+    12,
+    12,
+    11,
     13,
     3,
     3,
@@ -456,34 +455,34 @@
     3,
     3,
     13,
-    5,
-    5,
-    5,
-    7,
     11,
-    7,
-    5,
-    5,
+    11,
+    11,
+    11,
+    9,
+    11,
+    11,
+    11,
+    11,
+    11,
+    9,
+    9,
+    9,
+    11,
     13,
-    5,
     11,
     11,
     11,
-    5,
-    13,
-    6,
-    6,
-    6,
-    6,
-    5,
+    11,
+    11,
     13,
     4,
+    14,
+    4,
+    11,
     12,
-    13,
     12,
     12,
-    15,
-    6,
     11,
     11,
     11,

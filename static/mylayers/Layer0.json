@@ -112,9 +112,8 @@
       "extraLabel": "L#2/"
     },
     {
-      "keyCode": 52510,
-      "label": "I",
-      "extraLabel": "L#5/"
+      "keyCode": 12,
+      "label": "I"
     },
     {
       "keyCode": 18,
@@ -230,9 +229,9 @@
       "label": "C"
     },
     {
-      "keyCode": 52011,
+      "keyCode": 52267,
       "label": "V",
-      "extraLabel": "L#3/"
+      "extraLabel": "L#4/"
     },
     {
       "keyCode": 5,
@@ -285,14 +284,14 @@
       "verbose": "Left Control"
     },
     {
+      "keyCode": 17494,
+      "label": "2",
+      "extraLabel": "MOVE"
+    },
+    {
       "keyCode": 227,
       "label": "LEFT LINUX",
       "verbose": "Left Linux"
-    },
-    {
-      "keyCode": 226,
-      "label": "LEFT ALT",
-      "verbose": "Left Alt"
     },
     {
       "keyCode": 49722,
@@ -300,9 +299,9 @@
       "extraLabel": "ALT/"
     },
     {
-      "keyCode": 49213,
-      "label": "SPACE",
-      "extraLabel": "CTRL/"
+      "keyCode": 51773,
+      "label": "TAB",
+      "extraLabel": "L#2/"
     },
     {
       "keyCode": 0,
@@ -310,24 +309,22 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 17494,
-      "label": "2",
-      "extraLabel": "MOVE"
+      "keyCode": 40,
+      "label": "ENTER"
     },
     {
-      "keyCode": 51773,
-      "label": "TAB",
-      "extraLabel": "L#2/"
-    },
-    {
-      "keyCode": 49467,
+      "keyCode": 42,
       "label": "BACKSPACE",
+      "verbose": "Backspace"
+    },
+    {
+      "keyCode": 49465,
+      "label": "ENTER",
       "extraLabel": "SHIFT/"
     },
     {
-      "keyCode": 49165,
-      "label": "4",
-      "extraLabel": "OSL"
+      "keyCode": 40,
+      "label": "ENTER"
     },
     {
       "keyCode": 49213,
@@ -335,20 +332,19 @@
       "extraLabel": "CTRL/"
     },
     {
-      "keyCode": 49721,
-      "label": "ENTER",
+      "keyCode": 49825,
+      "label": "LANG1",
       "extraLabel": "ALT/"
     },
     {
-      "keyCode": 144,
-      "label": "LANG1",
-      "extraLabel": "",
-      "verbose": "Lang1"
+      "keyCode": 17496,
+      "label": "4",
+      "extraLabel": "MOVE"
     },
     {
-      "keyCode": 49163,
-      "label": "2",
-      "extraLabel": "OSL"
+      "keyCode": 231,
+      "label": "RIGHT LINUX",
+      "verbose": "Right Linux"
     },
     {
       "keyCode": 17152,
@@ -389,11 +385,11 @@
     4,
     4,
     4,
-    4,
-    4,
-    4,
-    4,
     11,
+    4,
+    4,
+    4,
+    4,
     4,
     4,
     4,
@@ -425,11 +421,11 @@
     4,
     4,
     0,
-    11,
-    4,
-    4,
     4,
     15,
+    4,
+    4,
+    4,
     4,
     4,
     4,
