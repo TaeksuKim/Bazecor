@@ -1,8 +1,8 @@
 {
   "keymap": [
     {
-      "keyCode": 53,
-      "label": "`"
+      "keyCode": 41,
+      "label": "ESC"
     },
     {
       "keyCode": 30,
@@ -84,9 +84,8 @@
       "label": "E"
     },
     {
-      "keyCode": 51495,
-      "label": "R",
-      "extraLabel": "L#1/"
+      "keyCode": 21,
+      "label": "R"
     },
     {
       "keyCode": 23,
@@ -135,8 +134,8 @@
       "label": "ENTER"
     },
     {
-      "keyCode": 51770,
-      "label": "ENTER",
+      "keyCode": 51771,
+      "label": "ESC",
       "extraLabel": "L#2/"
     },
     {
@@ -152,9 +151,8 @@
       "label": "D"
     },
     {
-      "keyCode": 49178,
-      "label": "F",
-      "extraLabel": "CTRL/"
+      "keyCode": 9,
+      "label": "F"
     },
     {
       "keyCode": 10,
@@ -226,9 +224,8 @@
       "label": "C"
     },
     {
-      "keyCode": 52011,
-      "label": "V",
-      "extraLabel": "L#3/"
+      "keyCode": 25,
+      "label": "V"
     },
     {
       "keyCode": 5,
@@ -281,9 +278,9 @@
       "verbose": "Left Control"
     },
     {
-      "keyCode": 49164,
-      "label": "3",
-      "extraLabel": "OSL"
+      "keyCode": 17492,
+      "label": "0",
+      "extraLabel": "MOVE"
     },
     {
       "keyCode": 226,
@@ -291,14 +288,12 @@
       "verbose": "Left Alt"
     },
     {
-      "keyCode": 49162,
-      "label": "1",
-      "extraLabel": "OSL"
+      "keyCode": 44,
+      "label": "SPACE"
     },
     {
-      "keyCode": 224,
-      "label": "LEFT CTRL",
-      "verbose": "Left Control"
+      "keyCode": 44,
+      "label": "SPACE"
     },
     {
       "keyCode": 0,
@@ -306,13 +301,14 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 43,
-      "label": "TAB"
+      "keyCode": 227,
+      "label": "LEFT LINUX",
+      "verbose": "Left Linux"
     },
     {
-      "keyCode": 49466,
-      "label": "ESC",
-      "extraLabel": "SHIFT/"
+      "keyCode": 17492,
+      "label": "0",
+      "extraLabel": "MOVE"
     },
     {
       "keyCode": 42,
@@ -320,19 +316,18 @@
       "verbose": "Backspace"
     },
     {
-      "keyCode": 227,
-      "label": "LEFT LINUX",
-      "verbose": "Left Linux"
+      "keyCode": 40,
+      "label": "ENTER"
     },
     {
-      "keyCode": 49213,
-      "label": "SPACE",
-      "extraLabel": "CTRL/"
+      "keyCode": 44,
+      "label": "SPACE"
     },
     {
-      "keyCode": 49569,
+      "keyCode": 144,
       "label": "LANG1",
-      "extraLabel": "SHIFT/"
+      "extraLabel": "",
+      "verbose": "Lang1"
     },
     {
       "keyCode": 226,
@@ -340,8 +335,8 @@
       "verbose": "Left Alt"
     },
     {
-      "keyCode": 17497,
-      "label": "5",
+      "keyCode": 17492,
+      "label": "0",
       "extraLabel": "MOVE"
     },
     {
@@ -356,75 +351,75 @@
     }
   ],
   "colormap": [
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
     4,
+    13,
+    13,
+    13,
+    13,
     4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    15,
-    4,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
     11,
     4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    4,
-    0,
-    3,
-    4,
-    4,
-    4,
-    4,
-    4,
+    13,
+    13,
+    13,
+    13,
+    13,
     4,
     4,
     4,

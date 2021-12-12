@@ -153,9 +153,10 @@
       "verbose": "Transparent"
     },
     {
-      "keyCode": 49164,
-      "label": "3",
-      "extraLabel": "OSL"
+      "keyCode": 65535,
+      "label": "",
+      "extraLabel": "TRANS",
+      "verbose": "Transparent"
     },
     {
       "keyCode": 65535,
@@ -329,55 +330,8 @@
       "verbose": "Transparent"
     },
     {
-      "keyCode": 65535,
-      "label": "",
-      "extraLabel": "TRANS",
-      "verbose": "Transparent"
-    },
-    {
-      "keyCode": 65535,
-      "label": "",
-      "extraLabel": "TRANS",
-      "verbose": "Transparent"
-    },
-    {
-      "keyCode": 65535,
-      "label": "",
-      "extraLabel": "TRANS",
-      "verbose": "Transparent"
-    },
-    {
-      "keyCode": 65535,
-      "label": "",
-      "extraLabel": "TRANS",
-      "verbose": "Transparent"
-    },
-    {
-      "keyCode": 65535,
-      "label": "",
-      "extraLabel": "TRANS",
-      "verbose": "Transparent"
-    },
-    {
-      "keyCode": 65535,
-      "label": "",
-      "extraLabel": "TRANS",
-      "verbose": "Transparent"
-    },
-    {
-      "keyCode": 65535,
-      "label": "",
-      "extraLabel": "TRANS",
-      "verbose": "Transparent"
-    },
-    {
-      "keyCode": 49501,
-      "label": "DEL",
-      "extraLabel": "SHIFT/"
-    },
-    {
-      "keyCode": 49163,
-      "label": "2",
+      "keyCode": 49164,
+      "label": "3",
       "extraLabel": "OSL"
     },
     {
@@ -405,6 +359,51 @@
       "verbose": "Transparent"
     },
     {
+      "keyCode": 65535,
+      "label": "",
+      "extraLabel": "TRANS",
+      "verbose": "Transparent"
+    },
+    {
+      "keyCode": 65535,
+      "label": "",
+      "extraLabel": "TRANS",
+      "verbose": "Transparent"
+    },
+    {
+      "keyCode": 76,
+      "label": "DEL"
+    },
+    {
+      "keyCode": 65535,
+      "label": "",
+      "extraLabel": "TRANS",
+      "verbose": "Transparent"
+    },
+    {
+      "keyCode": 65535,
+      "label": "",
+      "extraLabel": "TRANS",
+      "verbose": "Transparent"
+    },
+    {
+      "keyCode": 145,
+      "label": "LANG2",
+      "extraLabel": "",
+      "verbose": "Lang2"
+    },
+    {
+      "keyCode": 65535,
+      "label": "",
+      "extraLabel": "TRANS",
+      "verbose": "Transparent"
+    },
+    {
+      "keyCode": 17497,
+      "label": "5",
+      "extraLabel": "MOVE"
+    },
+    {
       "keyCode": 17492,
       "label": "0",
       "extraLabel": "MOVE"
@@ -430,21 +429,21 @@
     13,
     13,
     13,
-    15,
+    12,
+    13,
+    11,
+    11,
+    11,
+    5,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
     13,
     15,
-    15,
-    15,
-    13,
-    13,
-    13,
-    13,
-    13,
-    13,
-    13,
-    13,
-    13,
-    13,
     13,
     12,
     12,
@@ -480,11 +479,11 @@
     5,
     13,
     4,
-    12,
+    3,
     13,
+    5,
     12,
     12,
-    1,
     6,
     11,
     11,
