@@ -140,8 +140,9 @@
       "extraLabel": "L#2/"
     },
     {
-      "keyCode": 4,
-      "label": "A"
+      "keyCode": 51990,
+      "label": "A",
+      "extraLabel": "L#3/"
     },
     {
       "keyCode": 22,
@@ -226,9 +227,8 @@
       "label": "C"
     },
     {
-      "keyCode": 52011,
-      "label": "V",
-      "extraLabel": "L#3/"
+      "keyCode": 25,
+      "label": "V"
     },
     {
       "keyCode": 5,
@@ -281,9 +281,9 @@
       "verbose": "Left Control"
     },
     {
-      "keyCode": 49164,
+      "keyCode": 17495,
       "label": "3",
-      "extraLabel": "OSL"
+      "extraLabel": "MOVE"
     },
     {
       "keyCode": 226,
@@ -291,9 +291,9 @@
       "verbose": "Left Alt"
     },
     {
-      "keyCode": 49162,
+      "keyCode": 17493,
       "label": "1",
-      "extraLabel": "OSL"
+      "extraLabel": "MOVE"
     },
     {
       "keyCode": 224,
@@ -306,13 +306,14 @@
       "verbose": "Disabled"
     },
     {
-      "keyCode": 43,
-      "label": "TAB"
+      "keyCode": 49468,
+      "label": "TAB",
+      "extraLabel": "SHIFT/"
     },
     {
-      "keyCode": 49466,
+      "keyCode": 51515,
       "label": "ESC",
-      "extraLabel": "SHIFT/"
+      "extraLabel": "L#1/"
     },
     {
       "keyCode": 42,
@@ -321,8 +322,8 @@
     },
     {
       "keyCode": 227,
-      "label": "LEFT LINUX",
-      "verbose": "Left Linux"
+      "label": "LEFT WIN",
+      "verbose": "Left Win"
     },
     {
       "keyCode": 49213,
