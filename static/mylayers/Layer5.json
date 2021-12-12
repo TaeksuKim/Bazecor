@@ -336,9 +336,14 @@
       "extraLabel": "SHIFT/"
     },
     {
-      "keyCode": 226,
-      "label": "LEFT ALT",
-      "verbose": "Left Alt"
+      "keyCode": 2114,
+      "label": "F9",
+      "extraLabel": "S+"
+    },
+    {
+      "keyCode": 2115,
+      "label": "F10",
+      "extraLabel": "S+"
     },
     {
       "keyCode": 17492,
@@ -346,14 +351,9 @@
       "extraLabel": "MOVE"
     },
     {
-      "keyCode": 17492,
-      "label": "0",
-      "extraLabel": "MOVE"
-    },
-    {
-      "keyCode": 228,
-      "label": "RIGHT CTRL",
-      "verbose": "Right Control"
+      "keyCode": 2831,
+      "label": "L",
+      "extraLabel": "Meh+"
     }
   ],
   "colormap": [
@@ -418,10 +418,10 @@
     13,
     13,
     13,
-    13,
+    1,
     4,
-    4,
-    13,
+    1,
+    1,
     13,
     13,
     13,
