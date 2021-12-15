@@ -334,12 +334,6 @@
       "extraLabel": "MOVE"
     },
     {
-      "keyCode": 65535,
-      "label": "",
-      "extraLabel": "TRANS",
-      "verbose": "Transparent"
-    },
-    {
       "keyCode": 17492,
       "label": "0",
       "extraLabel": "MOVE"
@@ -369,8 +363,16 @@
       "verbose": "Transparent"
     },
     {
-      "keyCode": 76,
-      "label": "DEL"
+      "keyCode": 65535,
+      "label": "",
+      "extraLabel": "TRANS",
+      "verbose": "Transparent"
+    },
+    {
+      "keyCode": 65535,
+      "label": "",
+      "extraLabel": "TRANS",
+      "verbose": "Transparent"
     },
     {
       "keyCode": 65535,
@@ -442,8 +444,8 @@
     13,
     13,
     15,
-    13,
     4,
+    12,
     12,
     12,
     13,
@@ -459,15 +461,15 @@
     5,
     5,
     7,
-    11,
+    1,
     7,
     5,
     5,
     13,
     5,
-    11,
-    11,
-    11,
+    1,
+    1,
+    1,
     5,
     13,
     6,
@@ -482,7 +484,7 @@
     5,
     12,
     12,
-    6,
+    12,
     11,
     11,
     11,

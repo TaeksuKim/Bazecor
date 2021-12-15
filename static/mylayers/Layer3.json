@@ -372,15 +372,15 @@
       "extraLabel": "MOVE"
     },
     {
+      "keyCode": 17493,
+      "label": "1",
+      "extraLabel": "MOVE"
+    },
+    {
       "keyCode": 65535,
       "label": "",
       "extraLabel": "TRANS",
       "verbose": "Transparent"
-    },
-    {
-      "keyCode": 17493,
-      "label": "1",
-      "extraLabel": "MOVE"
     },
     {
       "keyCode": 277,
@@ -411,9 +411,10 @@
       "verbose": "Transparent"
     },
     {
-      "keyCode": 49163,
-      "label": "2",
-      "extraLabel": "OSL"
+      "keyCode": 65535,
+      "label": "",
+      "extraLabel": "TRANS",
+      "verbose": "Transparent"
     },
     {
       "keyCode": 65535,
@@ -479,8 +480,8 @@
     12,
     12,
     4,
-    12,
     11,
+    12,
     0,
     12,
     0,
@@ -518,7 +519,7 @@
     13,
     13,
     13,
-    1,
+    12,
     12,
     15,
     15,
