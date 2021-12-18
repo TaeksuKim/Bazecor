@@ -330,14 +330,15 @@
       "verbose": "Lang1"
     },
     {
-      "keyCode": 226,
-      "label": "LEFT ALT",
-      "verbose": "Left Alt"
+      "keyCode": 230,
+      "label": "RIGHT ALT",
+      "extraLabel": "",
+      "verbose": "AltGr"
     },
     {
-      "keyCode": 17492,
-      "label": "0",
-      "extraLabel": "MOVE"
+      "keyCode": 228,
+      "label": "RIGHT CTRL",
+      "verbose": "Right Control"
     },
     {
       "keyCode": 17152,
@@ -345,9 +346,9 @@
       "extraLabel": "LED"
     },
     {
-      "keyCode": 228,
-      "label": "RIGHT CTRL",
-      "verbose": "Right Control"
+      "keyCode": 17492,
+      "label": "0",
+      "extraLabel": "MOVE"
     }
   ],
   "colormap": [
@@ -412,9 +413,9 @@
     13,
     13,
     13,
-    13,
-    11,
     4,
+    11,
+    12,
     13,
     13,
     13,

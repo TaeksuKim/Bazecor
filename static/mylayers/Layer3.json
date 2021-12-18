@@ -435,9 +435,10 @@
       "verbose": "Transparent"
     },
     {
-      "keyCode": 17497,
-      "label": "5",
-      "extraLabel": "MOVE"
+      "keyCode": 65535,
+      "label": "",
+      "extraLabel": "TRANS",
+      "verbose": "Transparent"
     },
     {
       "keyCode": 17492,
@@ -445,10 +446,9 @@
       "extraLabel": "MOVE"
     },
     {
-      "keyCode": 65535,
-      "label": "",
-      "extraLabel": "TRANS",
-      "verbose": "Transparent"
+      "keyCode": 17497,
+      "label": "5",
+      "extraLabel": "MOVE"
     }
   ],
   "colormap": [
@@ -513,9 +513,9 @@
     0,
     0,
     12,
-    12,
-    4,
     3,
+    4,
+    14,
     13,
     13,
     13,

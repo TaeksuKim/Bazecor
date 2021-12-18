@@ -72,8 +72,9 @@
       "label": "TAB"
     },
     {
-      "keyCode": 20,
-      "label": "Q"
+      "keyCode": 52006,
+      "label": "Q",
+      "extraLabel": "L#3/"
     },
     {
       "keyCode": 26,
@@ -84,9 +85,8 @@
       "label": "E"
     },
     {
-      "keyCode": 51495,
-      "label": "R",
-      "extraLabel": "L#1/"
+      "keyCode": 21,
+      "label": "R"
     },
     {
       "keyCode": 23,
@@ -135,14 +135,14 @@
       "label": "ENTER"
     },
     {
-      "keyCode": 51770,
+      "keyCode": 52026,
       "label": "ENTER",
-      "extraLabel": "L#2/"
+      "extraLabel": "L#3/"
     },
     {
-      "keyCode": 51990,
+      "keyCode": 51478,
       "label": "A",
-      "extraLabel": "L#3/"
+      "extraLabel": "L#1/"
     },
     {
       "keyCode": 22,
@@ -346,14 +346,14 @@
       "extraLabel": "S+"
     },
     {
-      "keyCode": 17492,
-      "label": "0",
-      "extraLabel": "MOVE"
-    },
-    {
       "keyCode": 2831,
       "label": "L",
       "extraLabel": "Meh+"
+    },
+    {
+      "keyCode": 17492,
+      "label": "0",
+      "extraLabel": "MOVE"
     }
   ],
   "colormap": [
@@ -418,8 +418,8 @@
     13,
     13,
     13,
-    3,
     4,
+    3,
     3,
     3,
     13,
