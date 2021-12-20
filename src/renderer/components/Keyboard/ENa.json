@@ -952,6 +952,38 @@
     }
   },
   {
+    "id": 144,
+    "x": 930,
+    "y": 216,
+    "centered": true,
+    "icon": false,
+    "idArray": "",
+    "iconname": "",
+    "content": {
+      "type": "1U5",
+      "first": "LANG1",
+      "second": "",
+      "third": "",
+      "fourth": ""
+    }
+  },
+  {
+    "id": 145,
+    "x": 930,
+    "y": 244,
+    "centered": true,
+    "icon": false,
+    "idArray": "",
+    "iconname": "",
+    "content": {
+      "type": "1U5",
+      "first": "LANG2",
+      "second": "",
+      "third": "",
+      "fourth": ""
+    }
+  },
+  {
     "id": 4,
     "x": 70,
     "y": 96,
@@ -1875,6 +1907,22 @@
       "type": "title",
       "first": "",
       "second": "WHEEL",
+      "third": "",
+      "fourth": ""
+    }
+  },
+  {
+    "id": 1,
+    "x": 934,
+    "y": 194,
+    "centered": false,
+    "icon": false,
+    "idArray": "",
+    "iconname": "",
+    "content": {
+      "type": "title",
+      "first": "",
+      "second": "MISC.",
       "third": "",
       "fourth": ""
     }
