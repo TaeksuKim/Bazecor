@@ -148,6 +148,18 @@ const ksl = {
       letter: { dx: 142, dy: 19, ddx: 142, ddy: 19, fs: 20, fss: 14 }
     }
   },
+  shortSpace: {
+    outb: { x: 164, y: 26, dx: 0, dy: 0 },
+    out: { x: 162, y: 24, dx: 1, dy: 1 },
+    icon: { x: 130, y: -1, w: 30, h: 26 },
+    text: {
+      a: { dx: 6, dy: 19, fs: 20 },
+      b: { dx: 16, dy: 19, fs: 14 },
+      c: { dx: 28, dy: 19, fs: 14 },
+      d: { dx: 38, dy: 19, fs: 14 },
+      letter: { dx: 142, dy: 19, ddx: 142, ddy: 19, fs: 20, fss: 14 }
+    }
+  },
   block: {
     outb: { x: 36, y: 32, dx: 0, dy: 0 },
     out: { x: 34, y: 30, dx: 1, dy: 1 },

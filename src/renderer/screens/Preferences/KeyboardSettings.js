@@ -48,6 +48,7 @@ import danishF from "../../../../static/danish.png";
 import swedishF from "../../../../static/swedish.png";
 import icelandicF from "../../../../static/icelandic.png";
 import norwegianF from "../../../../static/norwegian.png";
+import koreanF from "../../../../static/englishUSUK.png";
 
 import {
   MdComputer,
@@ -862,8 +863,8 @@ class KeyboardSettings extends React.Component {
 
     const onlyCustomSwitch = <Form.Check type="switch" checked={keymap.onlyCustom} onChange={this.setOnlyCustom} />;
     const showDefaultLayersSwitch = <Form.Check type="switch" checked={showDefaults} onChange={this.setShowDefaults} />;
-    let flags = [englishUSUKF, spanishF, germanF, frenchF, swedishF, danishF, norwegianF, icelandicF, japaneseF];
-    let language = ["english", "spanish", "german", "french", "swedish", "danish", "norwegian", "icelandic"];
+    let flags = [englishUSUKF, spanishF, germanF, frenchF, swedishF, danishF, norwegianF, icelandicF, koreanF, japaneseF];
+    let language = ["english", "spanish", "german", "french", "swedish", "danish", "norwegian", "icelandic", "korean"];
     let languages = language.map((item, index) => {
       return (
         <Dropdown.Item eventKey={item} key={index}>
