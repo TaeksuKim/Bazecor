@@ -23,7 +23,7 @@ const koreanLetters = [
   {
     code: 144,
     labels: {
-      primary: "LANG1",
+      primary: "한/영",
       verbose: "Lang1"
     },
     newGroupName: "Miscellaneous"
@@ -31,7 +31,7 @@ const koreanLetters = [
   {
     code: 145,
     labels: {
-      primary: "LANG2",
+      primary: "한자",
       verbose: "Lang2"
     },
     newGroupName: "Miscellaneous"
