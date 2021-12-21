@@ -48,7 +48,7 @@ import danishF from "../../../../static/danish.png";
 import swedishF from "../../../../static/swedish.png";
 import icelandicF from "../../../../static/icelandic.png";
 import norwegianF from "../../../../static/norwegian.png";
-import koreanF from "../../../../static/englishUSUK.png";
+import koreanF from "../../../../static/korean.png";
 
 import {
   MdComputer,
