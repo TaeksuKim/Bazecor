@@ -1880,22 +1880,6 @@
     }
   },
   {
-    "id": 1,
-    "x": 934,
-    "y": 194,
-    "centered": false,
-    "icon": false,
-    "idArray": "",
-    "iconname": "",
-    "content": {
-      "type": "title",
-      "first": "",
-      "second": "MISC.",
-      "third": "",
-      "fourth": ""
-    }
-  },
-  {
     "id": 17492,
     "x": 0,
     "y": 216,
