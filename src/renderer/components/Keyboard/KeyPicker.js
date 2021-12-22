@@ -53,6 +53,7 @@ import SW from "./SW.json";
 import DN from "./DN.json";
 import NW from "./NW.json";
 import IC from "./IC.json";
+import KR from "./KR.json";
 
 const Style = Styled.div`
 .keyboard {
@@ -140,11 +141,12 @@ class KeyPicker extends Component {
       swedish: SW,
       danish: DN,
       norwegian: NW,
-      icelandic: IC
+      icelandic: IC,
+      korean: KR
     };
-    const lansi = { english: ENa };
+    const lansi = { english: ENa, korean: KR };
     let Lang = ENa;
-    if (selectedlanguage == "english") {
+    if (selectedlanguage == "english" || selectedlanguage == "korean") {
       if (kbtype == "ansi") {
         if (lansi[selectedlanguage] != undefined) {
           Lang = lansi[selectedlanguage];
