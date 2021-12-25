@@ -1526,8 +1526,24 @@
     "mod": true
   },
   {
-    "id": 44,
+    "id": 145,
     "x": 180,
+    "y": 160,
+    "centered": true,
+    "icon": false,
+    "idArray": "",
+    "iconname": "",
+    "content": {
+      "type": "1U2",
+      "first": "한자",
+      "second": "",
+      "third": "",
+      "fourth": ""
+    }
+  },
+  {
+    "id": 44,
+    "x": 240,
     "y": 160,
     "centered": true,
     "icon": true,
@@ -1537,8 +1553,24 @@
     "idArray": "",
     "iconname": "Space",
     "content": {
-      "type": "6U2",
+      "type": "3U2",
       "first": "",
+      "second": "",
+      "third": "",
+      "fourth": ""
+    }
+  },
+  {
+    "id": 144,
+    "x": 410,
+    "y": 160,
+    "centered": true,
+    "icon": false,
+    "idArray": "",
+    "iconname": "",
+    "content": {
+      "type": "1U2",
+      "first": "한/영",
       "second": "",
       "third": "",
       "fourth": ""

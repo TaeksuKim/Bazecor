@@ -136,6 +136,18 @@ const ksl = {
       letter: { dx: 84, dy: 19, ddx: 84, ddy: 19, fs: 20, fss: 14 }
     }
   },
+  "3U2": {
+    outb: { x: 164, y: 26, dx: 0, dy: 0 },
+    out: { x: 162, y: 24, dx: 1, dy: 1 },
+    icon: { x: 130, y: -1, w: 30, h: 26 },
+    text: {
+      a: { dx: 6, dy: 19, fs: 20 },
+      b: { dx: 16, dy: 19, fs: 14 },
+      c: { dx: 28, dy: 19, fs: 14 },
+      d: { dx: 38, dy: 19, fs: 14 },
+      letter: { dx: 82, dy: 19, ddx: 82, ddy: 19, fs: 20, fss: 14 }
+    }
+  },
   "6U2": {
     outb: { x: 284, y: 26, dx: 0, dy: 0 },
     out: { x: 282, y: 24, dx: 1, dy: 1 },
