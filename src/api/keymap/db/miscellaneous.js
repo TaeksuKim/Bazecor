@@ -39,6 +39,18 @@ const MiscellaneousTable = {
       labels: {
         primary: "PAUSE"
       }
+    },
+    {
+      code: 144,
+      labels: {
+        primary: "한/영"
+      }
+    },
+    {
+      code: 145,
+      labels: {
+        primary: "한자"
+      }
     }
     /* These are disabled for now, since we don't want to display them in
      * Bazecor. */
