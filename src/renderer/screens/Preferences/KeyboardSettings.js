@@ -542,7 +542,6 @@ class KeyboardSettings extends React.Component {
     this.setState({
       SuperTimeout: value,
       SuperHoldstart: value - 20,
-      qukeysHoldTimeout: value - 20,
       modified: true
     });
     this.props.startContext();
@@ -1127,16 +1126,26 @@ class KeyboardSettings extends React.Component {
         </Col>
       </Row>
     );
-    // const holdT = (
-    //   <RangeSlider
-    //     min={0}
-    //     max={1000}
-    //     value={qukeysHoldTimeout}
-    //     className="slider"
-    //     onChange={this.setHoldTimeout}
-    //     marks={[{ value: 250, label: i18n.keyboardSettings.defaultLabel }]}
-    //   />
-    // );
+    const holdT = (
+      <Row>
+        <Col xs={2} md={1} className="p-0 text-center">
+          <span className="tagsfix">0</span>
+        </Col>
+        <Col xs={8} md={10} className="px-2">
+          <RangeSlider
+            min={0}
+            max={1000}
+            value={qukeysHoldTimeout}
+            className="slider"
+            onChange={this.setHoldTimeout}
+            marks={[{ value: 250, label: i18n.keyboardSettings.defaultLabel }]}
+          />
+        </Col>
+        <Col xs={2} md={1} className="p-0 text-center">
+          <span className="tagsfix">1000</span>
+        </Col>
+      </Row>
+    );
     // const overlapT = (
     //   <RangeSlider
     //     min={0}
@@ -1526,6 +1535,27 @@ class KeyboardSettings extends React.Component {
                             </Form.Label>
                           </Row>
                           {superT}
+                        </Form.Group>
+                      )}
+                      {qukeysHoldTimeout >= 0 && (
+                        <Form.Group controlId="holdTimeout" className="formGroup">
+                          <Row>
+                            <Form.Label>
+                              {i18n.keyboardSettings.qukeys.holdTimeoutTitle}
+                              <OverlayTrigger
+                                rootClose
+                                placement="bottom"
+                                delay={{ show: 250, hide: 400 }}
+                                overlay={this.renderTooltip([
+                                  i18n.keyboardSettings.qukeys.holdTimeoutTip1,
+                                  i18n.keyboardSettings.qukeys.holdTimeoutTip2
+                                ])}
+                              >
+                                <MdInfoOutline className="modinfo" />
+                              </OverlayTrigger>
+                            </Form.Label>
+                          </Row>
+                          {holdT}
                         </Form.Group>
                       )}
                       {SuperHoldstart >= 0 && (

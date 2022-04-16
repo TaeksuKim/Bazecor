@@ -305,6 +305,9 @@ const English = {
       title: "DUAL FUNCTION KEY PARAMETERS",
       holdTimeout: "Adjust time to start 'when held' action",
       holdTimeoutsub: " - From 0 to 65,534 milliseconds",
+      holdTimeoutTitle: "Qukeys Hold Timeout",
+      holdTimeoutTip1: "Adjust time to start 'when held' action",
+      holdTimeoutTip2: " - From 0 to 1,000 milliseconds",
       overlapThreshold: "Adjust overlap threshold between dual-function key and subsequent key",
       overlapThresholdsub: " - Percentage from 0 to 100"
     },
