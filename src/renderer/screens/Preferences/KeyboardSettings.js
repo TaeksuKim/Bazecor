@@ -249,8 +249,8 @@ class KeyboardSettings extends React.Component {
       ledIdleTimeLimit: 0,
       defaultLayer: 126,
       selectedNeuron: 0,
-      qukeysHoldTimeout: 0,
-      qukeysOverlapThreshold: 0,
+      qukeysHoldTimeout: 250,
+      qukeysOverlapThreshold: 80,
       SuperTimeout: 0,
       SuperRepeat: 20,
       SuperWaitfor: 500,
@@ -501,10 +501,8 @@ class KeyboardSettings extends React.Component {
 
   setSuperTimeout = event => {
     const value = event.target.value;
-    const olt = value > 1000 ? 0 : 100 - value / 10;
     this.setState({
       SuperTimeout: value,
-      qukeysOverlapThreshold: olt,
       modified: true
     });
     this.props.startContext();
@@ -536,35 +534,6 @@ class KeyboardSettings extends React.Component {
     });
     this.props.startContext();
   };
-
-  setTyping = event => {
-    const value = (100 - event.target.value) * 10;
-    this.setState({
-      SuperTimeout: value,
-      SuperHoldstart: value - 20,
-      modified: true
-    });
-    this.props.startContext();
-  };
-
-  setChording = event => {
-    const value = event.target.value;
-    this.setState({
-      qukeysOverlapThreshold: value,
-      modified: true
-    });
-    this.props.startContext();
-  };
-
-  // setSuperOverlapThreshold = event => {
-  //   const value = event.target.value;
-
-  //   this.setState({
-  //     SuperOverlapThreshold: value,
-  //     modified: true
-  //   });
-  //   this.props.startContext();
-  // };
 
   setSpeed = event => {
     const value = event.target.value;
@@ -1146,26 +1115,36 @@ class KeyboardSettings extends React.Component {
         </Col>
       </Row>
     );
-    // const overlapT = (
-    //   <RangeSlider
-    //     min={0}
-    //     max={100}
-    //     value={qukeysOverlapThreshold}
-    //     className="slider"
-    //     onChange={this.setOverlapThreshold}
-    //     marks={[{ value: 80, label: i18n.keyboardSettings.defaultLabel }]}
-    //   />
-    // );
+    const overlapT = (
+      <Row>
+        <Col xs={2} md={1} className="p-0 text-center">
+          <span className="tagsfix">0</span>
+        </Col>
+        <Col xs={8} md={10} className="px-2">
+          <RangeSlider
+            min={0}
+            max={100}
+            value={qukeysOverlapThreshold}
+            className="slider"
+            onChange={this.setOverlapThreshold}
+            marks={[{ value: 80, label: i18n.keyboardSettings.defaultLabel }]}
+          />
+        </Col>
+        <Col xs={2} md={1} className="p-0 text-center">
+          <span className="tagsfix">100</span>
+        </Col>
+      </Row>
+    );
     const superT = (
       <Row>
         <Col xs={2} md={1} className="p-0 text-center">
-          <span className="tagsfix">slow</span>
+          <span className="tagsfix">1</span>
         </Col>
         <Col xs={8} md={10} className="px-2">
-          <RangeSlider min={0} max={95} value={100 - SuperTimeout / 10} className="slider" onChange={this.setTyping} />
+          <RangeSlider min={1} max={500} value={SuperTimeout} className="slider" onChange={this.setSuperTimeout} />
         </Col>
         <Col xs={2} md={1} className="p-0 text-center">
-          <span className="tagsfix">fast</span>
+          <span className="tagsfix">500</span>
         </Col>
       </Row>
     );
@@ -1192,13 +1171,13 @@ class KeyboardSettings extends React.Component {
     const superH = (
       <Row>
         <Col xs={2} md={1} className="p-0 text-center">
-          <span className="tagsfix">none</span>
+          <span className="tagsfix">1</span>
         </Col>
         <Col xs={8} md={10} className="px-2">
-          <RangeSlider min={0} max={100} value={qukeysOverlapThreshold} className="slider" onChange={this.setChording} />
+          <RangeSlider min={1} max={500} value={SuperHoldstart} className="slider" onChange={this.setSuperHoldstart} />
         </Col>
         <Col xs={2} md={1} className="p-0 text-center">
-          <span className="tagsfix">high</span>
+          <span className="tagsfix">500</span>
         </Col>
       </Row>
     );
@@ -1514,31 +1493,29 @@ class KeyboardSettings extends React.Component {
                       <span className="va3fix">{i18n.keyboardSettings.superkeys.title}</span>
                     </Card.Title>
                     <Card.Body className="pb-0">
-                      {SuperTimeout >= 0 && (
-                        <Form.Group controlId="superTimeout" className="formGroup">
+                      {qukeysOverlapThreshold >= 0 && (
+                        <Form.Group controlId="qukeysOverlapThreshold" className="formGroup">
                           <Row>
                             <Form.Label>
-                              {i18n.keyboardSettings.superkeys.timeout}
+                              {i18n.keyboardSettings.qukeys.overlapThresholdTitle}
                               <OverlayTrigger
                                 rootClose
                                 placement="bottom"
                                 delay={{ show: 250, hide: 400 }}
                                 overlay={this.renderTooltip([
-                                  i18n.keyboardSettings.superkeys.timeoutTip1,
-                                  i18n.keyboardSettings.superkeys.timeoutTip2,
-                                  i18n.keyboardSettings.superkeys.timeoutTip3,
-                                  i18n.keyboardSettings.superkeys.timeoutTip4
+                                  i18n.keyboardSettings.qukeys.overlapThreshold,
+                                  i18n.keyboardSettings.qukeys.overlapThresholdsub
                                 ])}
                               >
                                 <MdInfoOutline className="modinfo" />
                               </OverlayTrigger>
                             </Form.Label>
                           </Row>
-                          {superT}
+                          {overlapT}
                         </Form.Group>
                       )}
                       {qukeysHoldTimeout >= 0 && (
-                        <Form.Group controlId="holdTimeout" className="formGroup">
+                        <Form.Group controlId="qukeysHoldTimeout" className="formGroup">
                           <Row>
                             <Form.Label>
                               {i18n.keyboardSettings.qukeys.holdTimeoutTitle}
@@ -1562,7 +1539,7 @@ class KeyboardSettings extends React.Component {
                         <Form.Group controlId="superHoldstart" className="formGroup">
                           <Row>
                             <Form.Label>
-                              {i18n.keyboardSettings.superkeys.holdstart}
+                              Super Hold Start
                               <OverlayTrigger
                                 rootClose
                                 placement="bottom"
@@ -1579,6 +1556,29 @@ class KeyboardSettings extends React.Component {
                             </Form.Label>
                           </Row>
                           {superH}
+                        </Form.Group>
+                      )}
+                      {SuperTimeout >= 0 && (
+                        <Form.Group controlId="superTimeout" className="formGroup">
+                          <Row>
+                            <Form.Label>
+                              Super Timeout
+                              <OverlayTrigger
+                                rootClose
+                                placement="bottom"
+                                delay={{ show: 250, hide: 400 }}
+                                overlay={this.renderTooltip([
+                                  i18n.keyboardSettings.superkeys.timeoutTip1,
+                                  i18n.keyboardSettings.superkeys.timeoutTip2,
+                                  i18n.keyboardSettings.superkeys.timeoutTip3,
+                                  i18n.keyboardSettings.superkeys.timeoutTip4
+                                ])}
+                              >
+                                <MdInfoOutline className="modinfo" />
+                              </OverlayTrigger>
+                            </Form.Label>
+                          </Row>
+                          {superT}
                         </Form.Group>
                       )}
                     </Card.Body>

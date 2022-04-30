@@ -308,6 +308,7 @@ const English = {
       holdTimeoutTitle: "Qukeys Hold Timeout",
       holdTimeoutTip1: "Adjust time to start 'when held' action",
       holdTimeoutTip2: " - From 0 to 1,000 milliseconds",
+      overlapThresholdTitle: "Qukeys Overlap Threshold",
       overlapThreshold: "Adjust overlap threshold between dual-function key and subsequent key",
       overlapThresholdsub: " - Percentage from 0 to 100"
     },
