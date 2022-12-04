@@ -99,6 +99,18 @@ const FunctionKeyTable = {
       }
     },
     {
+      code: 144,
+      labels: {
+        primary: "LAN1"
+      }
+    },
+    {
+      code: 145,
+      labels: {
+        primary: "LAN2"
+      }
+    },
+    {
       code: 105,
       labels: {
         primary: "F14"
