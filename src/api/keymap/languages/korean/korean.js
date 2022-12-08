@@ -23,8 +23,8 @@ const koreanLetters = [
   {
     code: 144,
     labels: {
-      primary: "한글",
-      verbose: "한글"
+      primary: "한/영",
+      verbose: "한/영"
     },
     newGroupName: "Punctuation"
   },
